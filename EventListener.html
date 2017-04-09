@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <meta charset="UTF-8">
+		<title>Live With Living Style Guide - Home</title>     
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/notify.js"></script> 
+		<script src="js/notify.min.js"></script> 
+		<script src="js/mylivingstyle.js"></script> 
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<noscript>
+			<META HTTP-EQUIV="Refresh" CONTENT="0;URL=ShowErrorPage.html">
+		</noscript>
+	</head>
+	
+	        <body style="background-color:#9BCDFF">
+	           <div class="container">
+				    <span style="text-align:center;font-size:42px">Live With Living Style Guide</span> 
+					<img src="images/cover.jpg" class="img-responsive" alt="AAAAA" width="1200px" height="150px"/>  
+					<div class="row">
+						<div class="col-xs-10 text-left menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="Guide.html">Guide</a></li>
+								<li><a href="LocalStorage.html">LocalStorage</a></li>
+								<li><a href="EventListener.html">EventListener</a></li>
+								<li><a href="References.html">References</a></li>								
+							</ul>
+						</div>
+					</div>						
+					<div class="container">
+						<h3>Click Event</h3>
+						<p id="demo" style="font-size:14px">Hello, This is Sayed Ahmed Suman and here is my event listener example.</p>
+						<input type="button" class="btn btn-success" value="Click Here" id="myBtn"></input>
+					</div>
+					<div>
+						<br />
+					</div>
+					<div>
+						<h3>Input Event</h3>
+						<input type="text" id="myInput" >
+						<p id="demoInput"></p>
+					</div>
+					<div>
+						<br />
+					</div>
+					<div>
+					<h3>Mouse Up/Down Event</h3>
+						<p id="myP">
+						Click the text please! Living style guides will provide consistency with a project.
+						It performs a shared understanding for design decisions, 
+						and authorize future features to be designed and developed more quickly.
+						</p>
+					</div>
+					<h3> My list of useful websites which help me to write javascript</h3>
+                    <p>		
+						<ul id="myList1">					
+							<li>1.<a id="a1" href="https://teamgaslight.com/blog/what-is-a-living-style-guide">Blog gaslighthref </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-success btn-sm" value="Add to My Favourite List" onclick="AddToFavList('https://teamgaslight.com/blog/what-is-a-living-style-guide')" id="addbtn1"></input>
+							</li> 
+						 
+							<li>2.<a id="a2" href="https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study">Smashing Magazine </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="btn btn-success btn-sm" value="Add to My Favourite List" onclick="AddToFavList('https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study')" id="addbtn2"></input>
+							</li> 
+						 
+							<li>3.<a id="a3" href="https://alistapart.com/article/creating-style-guides">A List Apart </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="AddToFavList('https://www.smashingmagazine.com/2016/05/creating-a-living-style-guide-case-study')" class="btn btn-success btn-sm" value="Add to My Favourite List" id="addbtn3"></input>
+							</li> 
+						 
+							<li>4.<a id="a4" href="http://www.webdesignerdepot.com/2014/09/how-to-make-your-code-easily-maintainable-with-living-style-guides">Blog webdesignerdepot </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="AddToFavList('http://www.webdesignerdepot.com/2014/09/how-to-make-your-code-easily-maintainable-with-living-style-guides')" class="btn btn-success btn-sm" value="Add to My Favourite List" id="addbtn4"></input>
+							</li> 
+						 
+							<li>5.<a id="a5" href="https://www.w3schools.com/html/">w3schools </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="AddToFavList('https://www.w3schools.com')" class="btn btn-success btn-sm" value="Add to My Favourite List" id="addbtn5"></input>
+							</li> 
+						</ul>
+					</p>
+					
+					<h3> My favourite websites list for javascript</h3>		
+					<ul id="myList"></ul>
+					<div class="fix footer">
+						<p>&copy; Copyright 2017. Sayed Ahmed Suman. All Rights Restricted. </p>
+					</div>
+				 </div>
+				 <script src="js/mylivingstyle.js"></script> 
+			</body>
+</html>

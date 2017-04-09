@@ -1,0 +1,19 @@
+*{margin:0;padding:0;list-style:none}
+body {font-family:Calibri;font-size:20px;color:#666}
+.fix{overfow:hidden}
+.main{width:450px;margin:0 auto; display:block}
+.header{margin-top:30px}
+.slider_text{margin-top:25px}
+.slider_text h1{}
+.slider_text h2{margin-top:195px; text-align:center; text-shadow: 2px -2px white ; color:black}
+.maincontent{margin-top:20px}
+h1 {color:blue;font-size:50px;text-align:center}
+.menu{width:250px;margin-right:20px;float:left;background:#ededed;padding:20px}
+.menu ul{margin:0; padding:0;list-style:none}
+.menu ul li{border-bottom:1px solid #ddd; position:center;padding:5px}
+.menu ul li a{color:#666;text-decoration:none}
+.menu ul li a:hover{color:black}
+.content{width:960px}
+.content h2{margin-left:310px;margin-bottom:15px; font-weight:normal}
+.content p{margin-left:310px;margin-bottom:15px;text-align:justify; font-weight:normal}
+.footer{overflow:hidden; margin-top:20px;padding-bottom:2px;background:#BBBBBB; text-align:center; float:middle; }

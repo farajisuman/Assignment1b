@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <meta charset="UTF-8">
+		<title>Live With Living Style Guide - Home</title>     
+		
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/notify.js"></script> 
+		<script src="js/notify.min.js"></script> 
+		<script src="js/mylivingstyle.js"></script> 
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	</head>
+	
+	        <body style="background-color:#9BCDFF">
+	           <div class="container">
+				    <span style="text-align:center;font-size:42px">Live With Living Style Guide</span> 
+					<img src="images/cover.jpg" class="img-responsive" alt="AAAAA" width="1200px" height="150px"/>  
+					<div class="row">
+						<div class="col-xs-10 text-left menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="Guide.html">Guide</a></li>
+								<li><a href="LocalStorage.html">LocalStorage</a></li>
+								<li><a href="EventListener.html">EventListener</a></li>
+								<li><a href="References.html">References</a></li>
+							</ul>
+						</div>
+					</div>
+					<section id="container">
+        <h2>Recommendation</h2>
+        <p>Share your experiences.</p>
+		<article>
+			<form name="addingText">
+				<p>Your Name:</p>
+				<input name="userName" class=".input-lg" id="userName" size="39"></input>
+				<br/> <br/>
+				
+				<p>Your Email:</p>
+				<input name="userEmail" class=".input-lg" id="userEmail" onblur="checkEmail(this)" size="39"></input>
+				<br/> <br/>
+				
+				<p>Comments:</p>
+				<input name="userInput" class=".input-1g" id="userInput" size="39"></input>
+				<br/> <br/>
+					<table id="regular">
+						<tr>
+							<td><input type="button" class="btn btn-primary btn-sm" onclick="validate()" id="enter" value="Enter" /></td>
+							<td style="width:2px"></td>
+							<td><input type="button" class="btn btn-primary btn-sm" id="readDatabase" value="Retrieve" /></td>
+							<td style="width:2px"></td>			
+							<td><input type="button" class="btn btn-primary btn-sm" id="resetDatabase" value="Delete All" /></td>
+						</tr> 
+					</table>
+					<br/>
+					<table id="changeAction">
+						<tr>
+							<td><input type="button" class="btn btn-primary btn-sm" id="change" value="Change" /></td> 
+						</tr>
+					</table>
+					<input type="hidden" id="changeIndex" value="" />
+			</form>
+			<h3>Comments</h3>
+			<p id="receiverElement"></p>
+		</article>
+		</section>
+			<script src="js/storage.js"></script>
+					<div class="fix footer">
+						<p>&copy; Copyright 2017. Sayed Ahmed Suman. All Rights Restricted. </p>
+					</div>
+
+				 </div>
+			</body>
+</html>
